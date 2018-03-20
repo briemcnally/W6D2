@@ -13,6 +13,7 @@
   border-bottom: 0px;
   text-align: center;
   padding-top: 20px;
+  transition: background-color 1s;
 }
 
 .square:nth-child(3), .square:nth-child(6), .square:nth-child(9){
@@ -31,6 +32,10 @@ body {
   margin: auto;
   text-align: center;
   font-family: sans-serif;
+  background: linear-gradient(to bottom right, #2e7d32, #00838f);
+  height: 1200px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .available:hover {
@@ -43,7 +48,7 @@ body {
 }
 
 .green-text {
-  color: #4caf50;
+  color: #a5d6a7;
 }
 
 .cyan {
@@ -51,7 +56,7 @@ body {
 }
 
 .cyan-text {
-  color: #0097a7;
+  color: #80deea;
 }
 
 
@@ -67,4 +72,5 @@ figcaption {
   font-size: 70px;
   font-weight: bold;
   color: red;
+  text-shadow: 4px 4px 6px #000;
 }
