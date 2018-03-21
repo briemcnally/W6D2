@@ -1,0 +1,62 @@
+.tower1, .tower2, .tower3 {
+  width: 150px;
+  border-bottom: 10px solid #000;
+  float: left;
+  height: 200px;
+  margin: 0px 25px;
+  box-sizing: border-box;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.tower1:hover, .tower2:hover, .tower3:hover {
+  border-bottom: 10px solid #fdd835;
+  cursor: pointer;
+}
+
+.hanoi {
+  margin: auto;
+  width: 600px;
+}
+
+h1 {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  vertical-align: bottom;
+}
+
+.ring3 {
+  width: 150px;
+  height: 40px;
+  background-color: #ff6f00;
+  float: left;
+  margin: auto;
+  border-radius: 25px;
+}
+
+.ring2 {
+  width: 100px;
+  height: 40px;
+  background-color: red;
+  float: left;
+  margin: auto;
+  border-radius: 25px;
+}
+
+.ring1 {
+  width: 50px;
+  height: 40px;
+  background-color: blue;
+  float: left;
+  margin: auto;
+  border-radius: 25px;
+}
+
+.selected {
+  border-bottom: 10px solid red;
+}
